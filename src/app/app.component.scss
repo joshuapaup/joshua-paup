@@ -1,0 +1,57 @@
+#homepage {
+    ul {
+        list-style-type: none;
+        margin-top: 2%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        filter: drop-shadow(0px 4px 20px #000000);
+        li {
+            color: #FFFFFF;
+            padding: 0 8px;
+            font-size: 28px;
+            a {
+                color: inherit;
+                text-decoration: none;
+            }
+        }
+    }
+
+    img {
+        border-radius: 50%;
+        display: block;
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+
+        // Adds glowing feature behind image
+        box-shadow: 0px 0px 9px 4px #C4C4C4;
+        animation: glow 1.5s linear infinite alternate;
+        @keyframes glow {
+            to {
+                box-shadow: 0px 0px 30px 20px #D9D9D9;
+            }
+        }
+    }
+
+    h1 {
+        color: #FFFFFF;
+        font-size: 56px;
+        text-align: center;
+        vertical-align: middle;
+        padding: 15px;
+        filter: drop-shadow(0px 4px 20px #000000);
+    }
+
+    h3 {
+        color: #FFFFFF;
+        font-size: 24px;
+        text-align: center;
+        vertical-align: middle;
+        padding: 15px;
+        filter: drop-shadow(0px 4px 20px #000000);
+    }
+}
