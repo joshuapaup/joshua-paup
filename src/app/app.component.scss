@@ -1,13 +1,14 @@
 #homepage {
+    height: 2000px;
     ul {
         list-style-type: none;
-        margin-top: 2%;
         margin-left: 10%;
         margin-right: 10%;
         padding: 0;
         display: flex;
         justify-content: space-between;
         filter: drop-shadow(0px 4px 20px #000000);
+        margin-bottom: 5%;
         li {
             color: #FFFFFF;
             padding: 0 8px;
@@ -52,6 +53,105 @@
         text-align: center;
         vertical-align: middle;
         padding: 15px;
+        text-decoration: underline;
         filter: drop-shadow(0px 4px 20px #000000);
+    }
+}
+
+#about-me {
+    ul {
+        list-style-type: none;
+        margin-top: 2%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        filter: drop-shadow(0px 4px 20px #000000);
+        margin-bottom: 5%;
+        li {
+            color: #FFFFFF;
+            padding: 0 8px;
+            font-size: 28px;
+            a {
+                color: inherit;
+                text-decoration: none;
+            }
+        }
+    }
+
+    h1 {
+        color: #FFFFFF;
+        font-size: 56px;
+        text-align: center;
+        vertical-align: middle;
+        // padding: 15px;
+        filter: drop-shadow(0px 4px 20px #000000);
+    }
+
+    h3 {
+        color: #FFFFFF;
+        font-size: 24px;
+        text-align: center;
+        vertical-align: middle;
+        padding: 15px;
+        filter: drop-shadow(0px 4px 20px #000000);
+    }
+
+    mat-card {
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        height: auto;
+        width: 75%;
+        padding: 0;
+        filter: drop-shadow(0px 4px 20px #000000);
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        // vertical-align: middle;
+
+        // margin: auto;
+        // margin-top: 15%;
+        text-align: center;
+
+        // display: inline-block;
+        // justify-content: center;
+        // align-items: center;
+
+        a {
+            color: #C33149;
+            text-decoration: none;
+        }
+
+        .mat-card-image {
+            width: 25%;
+            height: auto;
+            margin: 0;
+            border-top-left-radius: 20px !important;
+            border-bottom-left-radius: 20px !important;
+        }
+
+        .mat-card-content {
+            display: flex;
+            // justify-content: space-between;
+
+            & > * {
+                // display: flex;
+                // flex-direction: row;
+                // justify-content: center;
+                // align-items: center;
+                flex: auto;
+                // max-width: 33%;
+        
+                &:last-child {
+                    text-align: left;
+                    // flex-wrap: wrap;
+                    // flex-direction: column;
+                    // align-items: start;
+                    padding: 5%;
+                }
+              }
+        }
     }
 }

@@ -1,4 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { 
+  Component,
+  OnInit,
+ } from '@angular/core';
+
+ import {
+   MatCardModule
+ } from '@angular/material/card';
+
+ import {
+   MatIconModule
+ } from '@angular/material/icon';
 
 declare var particlesJS: any;
 
